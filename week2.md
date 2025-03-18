@@ -1,6 +1,7 @@
 // C++ code
-//
 
+//
+```C++
 #define TRIG 12 // TRIG 핀
 #define ECHO 11 // ECHO 핀
 
@@ -45,3 +46,4 @@ void loop()
   digitalWrite(led_g, LOW);
   delay(1000);
 }
+```
