@@ -51,7 +51,7 @@ finally:
 ```                
 -----
 # arduino code
-```c
+```c++
 int Vo = A0;
 int V_led = 12;
 
@@ -82,6 +82,6 @@ void loop() {
   Serial.print("dust=");
   Serial.println(dustDensity);
 
-  delay(100);
+  delay(1000);
 }
 ```
